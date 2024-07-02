@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "News2Day",
+    "imageSrc": "projects/News WebApp.png",
+    "description": "A dynamic web application that delivers real-time news updates by fetching data from a third-party news API.",
+    "teckStack": "Tech Stack: React, Bootstrap, FetchAPI",
+    "demo": "https://news-web-app-eta-ten.vercel.app/",
+    "source": "https://github.com/Daksh-1905/NewsWebApp"
+  },
+  {
+    "id": 2,
+    "title": "Landing Page",
+    "imageSrc": "projects/Landing Page.png",
+    "description": "A Frontend design for the Landing page of a Website",
+    "teckStack": "Tech Stack: React, Bootstrap",
+    "demo": "https://landing-page-psi-seven-73.vercel.app/",
+    "source": "https://github.com/Daksh-1905/LandingPage"
+  },
+  {
+    "id": 3,
+    "title": "Todo List",
+    "imageSrc": "projects/Todo List.png",
+    "description": "Achieve your daily goals by listing all your tasks into a Todo List.",
+    "teckStack": "Tech Stack: React, Bootstrap",
+    "demo": "https://daksh-1905.github.io/TodoList/",
+    "source": "https://github.com/Daksh-1905/TodoList"
+  }
+]

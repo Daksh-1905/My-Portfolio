@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "imageSrc": "education/dtu.png",
+    "institute": "Delhi Technological University",
+    "specialization": "B.Tech in Computer Science and Engineering",
+    "duration": "2022-2026",
+    "cgpa": "8.60"
+  },
+  {
+    "id": 2,
+    "imageSrc": "education/SPS.jpg",
+    "institute": "Central Board of Secondary Education",
+    "specialization": "Class - XII",
+    "duration": "2021-2022",
+    "cgpa": "93.60%"
+  },
+  {
+    "id": 3,
+    "imageSrc": "education/SPS.jpg",
+    "institute": "Central Board of Secondary Education",
+    "specialization": "Class - X",
+    "duration": "2019-2020",
+    "cgpa": "93.60%"
+  }
+]

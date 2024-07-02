@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "organisation": "Vihaan Hackathon",
+    "imageSrc": "company/vihaan_image.jpg",
+    "role": "Web Developer",
+    "location": "Delhi Technological University, Delhi, India"
+  },
+  {
+    "id": 2,
+    "organisation": "Smart India Hackathon",
+    "imageSrc": "company/SIH_image.jpg",
+    "role": "Web Developer",
+    "location": "Delhi Technological University, Delhi, India"
+  }
+]
