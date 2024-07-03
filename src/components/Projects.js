@@ -15,27 +15,28 @@ const Projects = () => {
               <div
                 className="col align-self-start mb-4"
                 key={data.id}
-                // style={{ height: "25%" }}
+                style={{ height: "25%" }}
                 data-aos={data.id % 2 === 0 ? "fade-right" : "fade-left"}
                 data-aos-duration="1000"
                 data-aos-delay="100"
-                data-aos-offset={(() => {
-                  switch (data.id) {
-                    case 1:
-                      return "300";
-                    case 2:
-                      return "900";
-                    case 3:
-                      return "1500";
-                    case 4:
-                      return "2100";
-                    default:
-                      return "0"; // Default offset when id doesn't match any case
-                  }
-                })()}
+                data-aos-offset="500"
+                // data-aos-offset={(() => {
+                //   switch (data.id) {
+                //     case 1:
+                //       return "300";
+                //     case 2:
+                //       return "900";
+                //     case 3:
+                //       return "1500";
+                //     case 4:
+                //       return "2100";
+                //     default:
+                //       return "0"; // Default offset when id doesn't match any case
+                //   }
+                // })()}
               >
-                <div className="card text-light project-card">
-                  <div className="img d-flex justify-content-center align-content-center p-3 image">
+                <div className="text-light project-card">
+                  <div className="d-flex justify-content-center align-content-center p-3 image">
                     <img
                       src={`/assets/${data.imageSrc}`}
                       className="card-img-top"
@@ -43,7 +44,10 @@ const Projects = () => {
                     />
                   </div>
 
-                  <div className="card-body text-center">
+                  <div
+                    className="card-body text-center"
+                    style={{ width: "50%" }}
+                  >
                     <h3
                       className="card-title"
                       style={{

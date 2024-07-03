@@ -188,15 +188,18 @@ textarea:focus {
   background-color: var(--bg-color);
   border: var(--border);
   box-shadow: var(--box-shadow);
-  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
 }
 
 .project-card .image {
-  height: 65%;
+  width: 50%;
 }
 
 .project-card .image img {
-  width: 95%;
+  width: 100%;
   border: var(--border);
   border-radius: 10px;
   height: 100%;

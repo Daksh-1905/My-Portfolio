@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Portfolio",
-    "imageSrc": "projects/Portfolio.png",
+    "imageSrc": "projects/Portfolio_gif.gif",
     "description": "Dynamic portfolio showcasing innovative projects and skills, animated with the AOS library for engaging user experience.",
     "teckStack": "Tech Stack: React, Bootstrap, AOS",
     "demo": "https://my-portfolio-eight-ecru-40.vercel.app/",
