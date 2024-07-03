@@ -46,9 +46,7 @@ const Home = () => {
           data-aos-delay="100"
           data-aos-offset="300"
         >
-          <h1 ref={typedRef}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          </h1>
+          <h1 ref={typedRef}></h1>
           <a
             href={pdf}
             download="DAKSH JAIN resume.pdf"
