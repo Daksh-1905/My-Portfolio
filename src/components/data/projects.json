@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "title": "Portfolio",
+    "imageSrc": "projects/Portfolio.png",
+    "description": "Dynamic portfolio showcasing innovative projects and skills, animated with the AOS library for engaging user experience.",
+    "teckStack": "Tech Stack: React, Bootstrap, AOS",
+    "demo": "https://my-portfolio-eight-ecru-40.vercel.app/",
+    "source": "https://github.com/Daksh-1905/My-Portfolio"
+  },
+  {
+    "id": 2,
     "title": "News2Day",
     "imageSrc": "projects/News WebApp.png",
     "description": "A dynamic web application that delivers real-time news updates by fetching data from a third-party news API.",
@@ -9,7 +18,7 @@
     "source": "https://github.com/Daksh-1905/NewsWebApp"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Landing Page",
     "imageSrc": "projects/Landing Page.png",
     "description": "A Frontend design for the Landing page of a Website",
@@ -18,21 +27,12 @@
     "source": "https://github.com/Daksh-1905/LandingPage"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Todo List",
     "imageSrc": "projects/Todo List.png",
     "description": "Achieve your daily goals by listing all your tasks into a Todo List.",
     "teckStack": "Tech Stack: React, Bootstrap",
     "demo": "https://daksh-1905.github.io/TodoList/",
     "source": "https://github.com/Daksh-1905/TodoList"
-  },
-  {
-    "id": 4,
-    "title": "Portfolio",
-    "imageSrc": "projects/Portfolio.png",
-    "description": "Dynamic portfolio showcasing innovative projects and skills, animated with the AOS library for engaging user experience.",
-    "teckStack": "Tech Stack: React, Bootstrap, AOS",
-    "demo": "https://news-web-app-eta-ten.vercel.app/",
-    "source": "https://github.com/Daksh-1905/NewsWebApp"
   }
 ]
