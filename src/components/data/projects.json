@@ -25,5 +25,14 @@
     "teckStack": "Tech Stack: React, Bootstrap",
     "demo": "https://daksh-1905.github.io/TodoList/",
     "source": "https://github.com/Daksh-1905/TodoList"
+  },
+  {
+    "id": 4,
+    "title": "Portfolio",
+    "imageSrc": "projects/Portfolio.png",
+    "description": "Dynamic portfolio showcasing innovative projects and skills, animated with the AOS library for engaging user experience.",
+    "teckStack": "Tech Stack: React, Bootstrap, AOS",
+    "demo": "https://news-web-app-eta-ten.vercel.app/",
+    "source": "https://github.com/Daksh-1905/NewsWebApp"
   }
 ]

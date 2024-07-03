@@ -15,11 +15,24 @@ const Projects = () => {
               <div
                 className="col align-self-start mb-4"
                 key={data.id}
-                style={{ height: "75vh" }}
+                // style={{ height: "25%" }}
                 data-aos={data.id % 2 === 0 ? "fade-right" : "fade-left"}
                 data-aos-duration="1000"
                 data-aos-delay="100"
-                data-aos-offset="300"
+                data-aos-offset={(() => {
+                  switch (data.id) {
+                    case 1:
+                      return "300";
+                    case 2:
+                      return "900";
+                    case 3:
+                      return "1500";
+                    case 4:
+                      return "2100";
+                    default:
+                      return "0"; // Default offset when id doesn't match any case
+                  }
+                })()}
               >
                 <div className="card text-light project-card">
                   <div className="img d-flex justify-content-center align-content-center p-3 image">

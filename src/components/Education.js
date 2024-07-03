@@ -19,7 +19,7 @@ const Education = () => {
                 data-aos={data.id % 2 === 0 ? "fade-down" : "fade-up"}
                 data-aos-duration="1000"
                 data-aos-delay="100"
-                data-aos-offset="300"
+                data-aos-offset="2700"
               >
                 <div className="card-body">
                   <img
