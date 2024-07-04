@@ -20,20 +20,6 @@ const Projects = () => {
                 data-aos-duration="1000"
                 data-aos-delay="100"
                 data-aos-offset="500"
-                // data-aos-offset={(() => {
-                //   switch (data.id) {
-                //     case 1:
-                //       return "300";
-                //     case 2:
-                //       return "900";
-                //     case 3:
-                //       return "1500";
-                //     case 4:
-                //       return "2100";
-                //     default:
-                //       return "0"; // Default offset when id doesn't match any case
-                //   }
-                // })()}
               >
                 <div className="text-light project-card">
                   <div className="d-flex justify-content-center align-content-center p-3 image">
@@ -77,7 +63,7 @@ const Projects = () => {
                         <FaExternalLinkAlt size="25px" />
                       </a>
                       <a
-                        href={data.demo}
+                        href={data.source}
                         target="_blank"
                         rel="noreferrer"
                         className="mx-2 "
